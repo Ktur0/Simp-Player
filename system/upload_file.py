@@ -2,35 +2,38 @@ import tkinter as tk
 from tkinter import filedialog
 import shutil
 import os
+import sys
 
-def upload_file():
+def check_mp3_files():
 
-    # Tạo thư mục music nếu chưa có
-    os.makedirs("mp3_file", exist_ok=True)
+    # Lấy đường dẫn của file py hiện tại
+    if getattr(sys, 'frozen', False):
+        # Nếu chạy bằng file exe
+        current_dir = os.path.dirname(sys.executable)
+    else:
+        # Nếu chạy bằng file .py
+        current_dir = os.path.dirname(os.path.abspath(__file__))
 
+    # Lấy đường dẫn folder mp3_files
+    DEST_FOLDER = os.path.join(current_dir, "mp3_files")
+    os.makedirs(DEST_FOLDER, exist_ok=True)
+
+    return DEST_FOLDER
+
+def upload_files():
+
+    # ẩn cửa sổ Tkinter chính
     root = tk.Tk()
     root.withdraw()
 
-    # Chọn file MP3 từ máy
-    file_path = filedialog.askopenfilename(
-        title="Chọn bài hát",
-        filetypes=[
-            ("MP3 files", "*.mp3"),
-            ("All files", "*.*")
-        ]
-    )
+    # mở cửa sổ chọn file
+    file_path = filedialog.askopenfilename()
+    root.destroy()  # đóng Tkinter
 
+    # Lưu file vào thư mục
     if file_path:
-        # Lấy tên file
         file_name = os.path.basename(file_path)
+        dest_path = os.path.join(check_mp3_files, file_name)
+        shutil.copy(file_path, dest_path)
 
-        # Đường dẫn đích
-        destination = os.path.join("music", file_name)
-
-        # Sao chép file
-        shutil.copy2(file_path, destination)
-
-        print("Đã thêm:", file_name)
-        print("Lưu tại:", destination)
-
-upload_file()
+upload_files()

@@ -1,4 +1,5 @@
 import pygame
+from system.upload_file import *
 
 pygame.init()
 
