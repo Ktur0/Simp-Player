@@ -33,7 +33,5 @@ def upload_files():
     # Lưu file vào thư mục
     if file_path:
         file_name = os.path.basename(file_path)
-        dest_path = os.path.join(check_mp3_files, file_name)
+        dest_path = os.path.join(check_mp3_files(), file_name)
         shutil.copy(file_path, dest_path)
-
-upload_files()
