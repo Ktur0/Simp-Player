@@ -1,0 +1,43 @@
+# PROPRIETARY SOFTWARE LICENSE
+
+**Software Name:** Simp Player
+**Author / Copyright Owner:** Tran Nguyen Khanh Duy
+**Copyright:** © 2026 Tran Nguyen Khanh Duy. All Rights Reserved.
+
+## 1. Ownership
+
+This software, including its source code, object code, design, documentation, and associated materials, is the intellectual property of Tran Nguyen Khanh Duy. All rights, title, and ownership remain with the author.
+
+## 2. Restrictions
+
+Without prior written permission from the copyright owner, you may not:
+
+* Copy, reproduce, or redistribute this software.
+* Modify, reverse engineer, decompile, or create derivative works of this software, except where applicable law permits.
+* Sell, sublicense, or use this software for commercial purposes.
+* Claim this software or any part of it as your own work.
+
+## 3. Limited Permission
+
+The author grants users a limited, non-exclusive, non-transferable, and revocable permission to download, install, and use this software for personal purposes, subject to the terms of this license.
+
+## 4. Disclaimer of Warranty
+
+This software is provided "AS IS", without warranties of any kind, express or implied. The author does not guarantee that the software will be error-free, secure, or suitable for every purpose.
+
+## 5. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the author shall not be liable for any damages or losses arising from the use or inability to use this software.
+
+## 6. Termination
+
+Any violation of this license may result in the termination of the permission to use this software, subject to applicable law.
+
+## 7. Contact
+
+For permissions, licensing inquiries, or other questions, please contact:
+
+**Author:** Tran Nguyen Khanh Duy
+**Email:** khanhduy021108@gmail.com
+
+By downloading, installing, or using this software, you acknowledge that you have read and agree to the terms of this license.

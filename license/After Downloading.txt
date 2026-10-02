@@ -1,0 +1,26 @@
+**After Downloading**
+
+Thank you for downloading Simp Player!
+
+**Installation Instructions**
+
+1. Locate the downloaded file on your device.
+2. Extract the archive if the file is in ZIP or RAR format.
+3. Run the installer or executable file.
+4. Follow the on-screen instructions to complete the installation.
+5. Launch the software and verify that it works correctly.
+
+**Important Notes**
+
+* Do not modify or delete essential program files unless you understand their purpose.
+* Keep a backup of important data before making significant changes.
+* If you encounter any errors, please contact the developer for assistance.
+
+**Ownership and Copyright**
+
+© 2026 Tran Nguyen Khanh Duy. All rights reserved.
+
+This software, including its source code, design, documentation, and associated materials, is the intellectual property of Tran Nguyen Khanh Duy, unless otherwise specified. You may not redistribute, reproduce, modify, or claim this software as your own without explicit permission from the author.
+
+**Author:** Tran Nguyen Khanh Duy
+**Contact:** khanhduy021108@gmail.com

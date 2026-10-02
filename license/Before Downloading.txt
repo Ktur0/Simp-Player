@@ -1,0 +1,16 @@
+**Before Downloading**
+
+Software Name: Simp Player
+Author / Developer: Tran Nguyen Khanh Duy
+Version: 2.1.0.1
+
+Before downloading and installing this software, please read the following notes carefully:
+
+* Ensure that your device meets the minimum system requirements.
+* Download the software only from the official source.
+* Make sure your device has sufficient storage space.
+* This software is provided for its intended purpose. Please use it responsibly and at your own risk.
+
+**Copyright Notice**
+
+This software is the original work and intellectual property of Tran Nguyen Khanh Duy. All rights are reserved unless otherwise stated. Unauthorized copying, modification, redistribution, or commercial use without the author's permission is prohibited.
